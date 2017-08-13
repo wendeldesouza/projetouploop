@@ -1,0 +1,106 @@
+body{
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+	color: #818181;
+}
+  
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+  
+h4{
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}  
+
+.item span{
+    font-style: normal;
+}
+  
+.jumbotron{
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+}
+
+.container{
+	width:100%;
+	padding:0px;
+    margin: 0px;
+}
+
+.input-group{
+	width:50%;
+	margin-left:250px;
+}
+  
+.container-fluid{
+    padding: 10px 50px;
+}
+
+.bg-grey{
+	padding: 30px 50px;
+    background-color: #dddddd;
+}
+  
+.logo-small{
+    color: #f4511e;
+    font-size: 50px;
+}
+  
+.logo{
+	color: #f4511e;
+    font-size: 200px;
+}
+  
+  
+@media screen and (max-width: 768px){
+    .col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+    }
+}
+@media screen and (max-width: 480px){
+    .logo {
+        font-size: 150px;
+    }
+}
+ 
+footer .glyphicon{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+ .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  
+ a[href="#top"]{
+    padding:20px;
+    position:fixed;
+    top: 90%;
+    right:40px;
+    display:none;
+    font-size: 40px;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
+
+footer{
+	background-color:#1C1C1C;
+}
+
